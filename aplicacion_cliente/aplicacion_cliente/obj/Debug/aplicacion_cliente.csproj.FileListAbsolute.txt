@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\bin\Debug\aplicacion_cliente.exe.config
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\bin\Debug\aplicacion_cliente.exe
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\bin\Debug\aplicacion_cliente.pdb
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.Form1.resources
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.Properties.Resources.resources
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.csproj.GenerateResource.cache
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.exe
+C:\Users\User\source\repos\aplicacion_cliente\aplicacion_cliente\obj\Debug\aplicacion_cliente.pdb

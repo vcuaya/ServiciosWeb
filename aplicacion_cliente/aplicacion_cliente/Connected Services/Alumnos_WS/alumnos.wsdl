@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:class_api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:class_api" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:class_api">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="RespuestaBuscarAlumno">
+        <xsd:all>
+          <xsd:element name="code" type="xsd:string" />
+          <xsd:element name="message" type="xsd:string" />
+          <xsd:element name="data" type="xsd:string" />
+          <xsd:element name="status" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="RespuestaBienvenida">
+        <xsd:all>
+          <xsd:element name="code" type="xsd:string" />
+          <xsd:element name="message" type="xsd:string" />
+          <xsd:element name="status" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="RespuestaEvaluarAlumno">
+        <xsd:all>
+          <xsd:element name="code" type="xsd:string" />
+          <xsd:element name="message" type="xsd:string" />
+          <xsd:element name="data" type="xsd:string" />
+          <xsd:element name="promedio" type="xsd:float" />
+          <xsd:element name="status" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="BuscarAlumnoRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="matricula" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="BuscarAlumnoResponse">
+    <wsdl:part name="return" type="tns:RespuestaBuscarAlumno" />
+  </wsdl:message>
+  <wsdl:message name="BienvenidaRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="matricula" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="BienvenidaResponse">
+    <wsdl:part name="return" type="tns:RespuestaBienvenida" />
+  </wsdl:message>
+  <wsdl:message name="EvaluarAlumnoRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="matricula" type="xsd:string" />
+    <wsdl:part name="semestre" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="EvaluarAlumnoResponse">
+    <wsdl:part name="return" type="tns:RespuestaEvaluarAlumno" />
+  </wsdl:message>
+  <wsdl:portType name="ClassroomWSPortType">
+    <wsdl:operation name="BuscarAlumno">
+      <documentation>Operacion que devuelve el Nombre de un alumno dada su matricula.</documentation>
+      <wsdl:input message="tns:BuscarAlumnoRequest" />
+      <wsdl:output message="tns:BuscarAlumnoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Bienvenida">
+      <documentation>Operacion que envÃ­a la Bienvenida a classroom al alumno.</documentation>
+      <wsdl:input message="tns:BienvenidaRequest" />
+      <wsdl:output message="tns:BienvenidaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="EvaluarAlumno">
+      <documentation>OperaciÃ³n que devuelve la calificaciÃ³n obtenida hasta el semestre N de un alumno dada su matricula.</documentation>
+      <wsdl:input message="tns:EvaluarAlumnoRequest" />
+      <wsdl:output message="tns:EvaluarAlumnoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ClassroomWSBinding" type="tns:ClassroomWSPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="BuscarAlumno">
+      <soap:operation soapAction="urn:ClassroomWS#BuscarAlumno" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bienvenida">
+      <soap:operation soapAction="urn:ClassroomWS#Bienvenida" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EvaluarAlumno">
+      <soap:operation soapAction="urn:ClassroomWS#EvaluarAlumno" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:class_api" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClassroomWS">
+    <wsdl:port name="ClassroomWSPort" binding="tns:ClassroomWSBinding">
+      <soap:address location="http://54.203.246.162/neo/classroom/sw/pruebasclase/alumnos.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="aplicacion_cliente.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="aplicacion_cliente_AlumnosWS_ClassroomWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://54.203.246.162/neo/classroom/sw/pruebasclase/alumnos.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
