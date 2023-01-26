@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\restclientAlumno\bin\Debug\restclientAlumno.exe.config
+C:\Users\User\source\repos\restclientAlumno\bin\Debug\restclientAlumno.exe
+C:\Users\User\source\repos\restclientAlumno\bin\Debug\restclientAlumno.pdb
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.Form1.resources
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.Properties.Resources.resources
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.csproj.GenerateResource.cache
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.exe
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.pdb
+C:\Users\User\source\repos\restclientAlumno\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\restclientAlumno\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\restclientAlumno\obj\Debug\restclientAlumno.csproj.CopyComplete
