@@ -1,0 +1,36 @@
+C:\Users\User\source\repos\soapclientAlumno\bin\Debug\soapclientAlumno.exe.config
+C:\Users\User\source\repos\soapclientAlumno\bin\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\soapclientAlumno\bin\Debug\soapclientAlumno.pdb
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.Properties.Resources.resources
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.csproj.GenerateResource.cache
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.pdb
+C:\Users\User\source\repos\soapclientAlumno\obj\Debug\soapclientAlumno.Form1.resources
+C:\Users\User\source\repos\AlumnosWS - Copy\bin\Debug\soapclientAlumno.exe.config
+C:\Users\User\source\repos\AlumnosWS - Copy\bin\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\AlumnosWS - Copy\bin\Debug\soapclientAlumno.pdb
+C:\Users\User\source\repos\AlumnosWS - Copy\bin\Debug\ClassroomWS_cliente.dll
+C:\Users\User\source\repos\AlumnosWS - Copy\bin\Debug\ClassroomWS_cliente.pdb
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.Form1.resources
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.Properties.Resources.resources
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.csproj.GenerateResource.cache
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.csproj.CopyComplete
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\AlumnosWS - Copy\obj\Debug\soapclientAlumno.pdb
+C:\Users\User\source\repos\AlumnosWS\bin\Debug\soapclientAlumno.exe.config
+C:\Users\User\source\repos\AlumnosWS\bin\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\AlumnosWS\bin\Debug\soapclientAlumno.pdb
+C:\Users\User\source\repos\AlumnosWS\bin\Debug\ClassroomWS_cliente.dll
+C:\Users\User\source\repos\AlumnosWS\bin\Debug\ClassroomWS_cliente.pdb
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.Form1.resources
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.Properties.Resources.resources
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.csproj.GenerateResource.cache
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.csproj.CopyComplete
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.exe
+C:\Users\User\source\repos\AlumnosWS\obj\Debug\soapclientAlumno.pdb
