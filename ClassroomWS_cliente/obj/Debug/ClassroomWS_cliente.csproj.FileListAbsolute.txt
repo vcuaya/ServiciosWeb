@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\ClassroomWS_cliente\obj\Debug\ClassroomWS_cliente.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ClassroomWS_cliente\obj\Debug\ClassroomWS_cliente.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClassroomWS_cliente\bin\Debug\ClassroomWS_cliente.dll
+C:\Users\User\source\repos\ClassroomWS_cliente\bin\Debug\ClassroomWS_cliente.pdb
+C:\Users\User\source\repos\ClassroomWS_cliente\obj\Debug\ClassroomWS_cliente.dll
+C:\Users\User\source\repos\ClassroomWS_cliente\obj\Debug\ClassroomWS_cliente.pdb
